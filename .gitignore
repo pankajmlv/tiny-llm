@@ -1,0 +1,20 @@
+# Python virtual environment (large, machine-specific; recreate with pip)
+venv/
+.venv/
+
+# Python cache files (auto-generated)
+__pycache__/
+*.pyc
+
+# Datasets (downloaded by a script, too big for GitHub)
+data/
+
+# Trained model checkpoints (can be hundreds of MB)
+*.pt
+*.pth
+checkpoints/
+
+# Editor/OS clutter
+.vscode/
+.idea/
+Thumbs.db
